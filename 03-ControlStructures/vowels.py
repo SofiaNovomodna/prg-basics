@@ -14,12 +14,13 @@ ii = 0
 
 while i != 22:
     while True:
-        if text[(i)] == vowels[(ii)]:
+        if text[i] == vowels[ii]:
             vowel_count += 1
             i +=1
+            continue
         else:
             ii+=1
-            continue
+    continue
 
     
 
