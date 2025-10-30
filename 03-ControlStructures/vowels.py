@@ -13,11 +13,14 @@ ii = 0
        # vowel_count += 1
 
 while i != 22:
-    if text[(i)] == vowels[(ii)]:
-        vowel_count += 1
-    else:
-        ii+=1
-    i +=1
+    while True:
+        if text[(i)] == vowels[(ii)]:
+            vowel_count += 1
+            i +=1
+        else:
+            ii+=1
+            continue
+
     
 
 print(f"The number of vowels in the text is: {vowel_count}")
