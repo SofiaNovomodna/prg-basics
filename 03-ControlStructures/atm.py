@@ -3,16 +3,18 @@
 #
 balance = 1000  # Initial balance
 pin = '1111' # initial 4-digit PIN code
-
+npin = ''
 while True:
     print()
     print("ATM Menu:")
     print("1. Check balance")
     print("2. Deposit")
     print("3. Withdraw")
-    print("4. Exit")
+    print('4. Check PIN')
+    print('5. Change PIN')
+    print("6. Exit")
 
-    choice = input("Choose an option (1-4): ")
+    choice = input("Choose an option (1-6): ")
     print()
 
     if choice == '1':
@@ -29,6 +31,15 @@ while True:
         else:
             print("Insufficient balance.")
     elif choice == '4':
+        print(f"Your current pin is: {pin}")
+    elif choice == '5':
+        npin = input("Enter the new pin: ")
+        if npin.isdigit():
+            npin = pin
+        else:
+            print('Wrine numbers')
+
+    elif choice == '6':
         print("Exiting... Thank you for using the ATM!")
         break  # Exit the loop
     else:
