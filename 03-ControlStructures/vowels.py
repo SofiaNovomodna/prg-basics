@@ -12,16 +12,12 @@ ii = 0
     #if char in vowels:
        # vowel_count += 1
 
-while i != 22:
-    while True:
-        if text[i] == vowels[ii]:
-            vowel_count += 1
-            i +=1
-            continue
-        else:
-            ii+=1
-    continue
+i = 0  # index counter
 
-    
+while i < len(text):
+    char = text[i]
+    if char in vowels:
+        vowel_count += 1
+    i += 1  # move to next character
 
 print(f"The number of vowels in the text is: {vowel_count}")
