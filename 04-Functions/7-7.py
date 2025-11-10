@@ -7,5 +7,6 @@ def f(binary_number):
             continue
     return True
 
-print (f('1311a10100'))
-print (f('11100001'))
+if __name__ == "__main__":
+    print (f('1311a10100'))
+    print (f('11100001'))

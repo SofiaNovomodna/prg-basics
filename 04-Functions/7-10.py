@@ -11,5 +11,6 @@ def f(x,y):
             continue
     return result
 
-print(f(-7,8))
-print(f(-1,11))
+if __name__ == "__main__":
+    print(f(-7,8))
+    print(f(-1,11))
