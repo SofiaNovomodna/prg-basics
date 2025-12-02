@@ -29,3 +29,23 @@ while not cards.empty():
 Note the order of the printed elements.
 The last added element is printed first.
 """
+#Put 2,3,7,4,1,9,8 on the stack
+stack = queue.LifoQueue()
+stack.put(2)
+stack.put(3)
+stack.put(7)
+stack.put(4)
+stack.put(1)
+stack.put(9)
+stack.put(8)
+
+#Sum the last two numbers of the stack and print result
+sum = 0
+sum += int(stack.get())
+sum += int(stack.get())
+print(sum)
+#Calculate the sum of the remaining stack elements and print the result. Use a 'while' loop.
+sum = 0
+while not stack.empty():
+    sum += int(stack.get())
+print(sum)
