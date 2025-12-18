@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Alice",
+    "age": 22,
+    "courses": {
+      "statistics": 5,
+      "math": 4
+    }
+  },
+  {
+    "name": "Bob",
+    "age": 20,
+    "courses": {
+      "statistics": 3,
+      "physics": 4
+    }
+  },
+  {
+    "name": "Charlie",
+    "age": 23,
+    "courses": {
+      "statistics": 4,
+      "math": 5
+    }
+  },
+  {
+    "name": "Diana",
+    "age": 21,
+    "courses": {
+        "statistics": 1,
+      "physics": 5,
+      "math": 3
+    }
+  },
+  {
+    "name": "Eve",
+    "age": 19,
+    "courses": {
+      "statistics": 4,
+      "math": 4
+    }
+  },
+  {
+    "name": "Frank",
+    "age": 25,
+    "courses": {
+      "statistics": 2,
+      "math": 5
+    }
+  },
+  {
+    "name": "Grace",
+    "age": 21,
+    "courses": {
+      "statistics": 4,
+      "physics": 3
+    }
+  }
+]
